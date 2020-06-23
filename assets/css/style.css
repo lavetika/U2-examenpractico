@@ -112,7 +112,7 @@ footer p a {
     color: white;
 }
 
-footer div:first-of-type{
+footer section:first-of-type{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
