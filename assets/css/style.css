@@ -1,0 +1,127 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+}
+
+/*Parte superior*/
+aside{
+    width: 100%;
+    padding-bottom: 2%;
+    background-color: lightskyblue;
+}
+
+/*Imagen correo*/
+aside img{
+    padding-top: 2%;
+    display: block;
+    margin: auto;  
+}
+
+/*Creating text*/
+aside > h1:nth-of-type(1)  {
+    margin: 0%;
+    padding-top: 15px;
+    letter-spacing: 18px;
+    font-size: 13px;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+aside section{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*email text*/
+aside section h1:first-of-type {
+    margin: 0%;
+    padding-right: 3px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+/*magic text*/
+aside section h1:nth-of-type(2){
+    margin: 0%;
+    padding-top: 0%;
+    padding-left: 3px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: rgb(26, 26, 94);
+}
+
+/*Información*/
+main{
+    margin: 2%;
+    color: rgb(26, 26, 94);
+}
+
+main h1 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(26, 26, 94);
+    font-size: x-large;
+}
+
+/*Flex-cointener*/
+main section:first-of-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: start;
+}
+
+/*Contenedor publication 1*/
+main section section:first-of-type{
+    width: 250px;
+    margin-right: 1%;
+    flex-direction: column;
+}
+
+/*Contenedor publicacion 2*/
+main section section:nth-of-type(2){
+    width: 250px;
+    margin-left: 1%;
+    flex-direction: column;
+}
+
+main h2{
+    font-size: large;
+}
+
+main img{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    margin: 0%;
+    padding: 0%;
+    background-color: #F04F4F;
+    color: white;
+    padding-left: 25px;
+}
+
+footer p a {
+    color: white;
+}
+
+footer div:first-of-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer img{
+    padding-top: 20px;
+    padding-right: 25px;
+    width: 30px;
+    height: 30px;
+}
+
