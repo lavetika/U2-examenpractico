@@ -4,21 +4,21 @@ body{
 }
 
 /*Parte superior*/
-aside{
+header{
     width: 100%;
     padding-bottom: 2%;
     background-color: lightskyblue;
 }
 
 /*Imagen correo*/
-aside img{
+header img{
     padding-top: 2%;
     display: block;
     margin: auto;  
 }
 
 /*Creating text*/
-aside > h1:nth-of-type(1)  {
+header > h1:nth-of-type(1)  {
     margin: 0%;
     padding-top: 15px;
     letter-spacing: 18px;
@@ -28,7 +28,7 @@ aside > h1:nth-of-type(1)  {
 }
 
 
-aside section{
+header section{
     display: flex;
     justify-content: center;
     margin: 0%;
@@ -36,7 +36,7 @@ aside section{
 }
 
 /*email text*/
-aside section h1:first-of-type {
+header section h1:first-of-type {
     margin: 0%;
     padding-right: 3px;
     font-size: 40px;
@@ -47,7 +47,7 @@ aside section h1:first-of-type {
 }
 
 /*magic text*/
-aside section h1:nth-of-type(2){
+header section h1:nth-of-type(2){
     margin: 0%;
     padding-top: 0%;
     padding-left: 3px;
@@ -77,14 +77,14 @@ main section:first-of-type{
 }
 
 /*Contenedor publication 1*/
-main section section:first-of-type{
+main section article:first-of-type{
     width: 250px;
     margin-right: 1%;
     flex-direction: column;
 }
 
 /*Contenedor publicacion 2*/
-main section section:nth-of-type(2){
+main section article:nth-of-type(2){
     width: 250px;
     margin-left: 1%;
     flex-direction: column;
